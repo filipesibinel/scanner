@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(v4l2-ctl:*)",
+      "Bash(cat:*)",
+      "Bash(./venv/bin/pip list:*)",
+      "Bash(./venv/bin/python3:*)",
+      "Bash(export GEMINI_API_KEY=\"AIzaSyDThm9u6Ih4YXObYmda7IEWNPToKiLulsY\")",
+      "Bash(curl:*)",
+      "Bash(pkill:*)",
+      "WebFetch(domain:moxfield.com)",
+      "WebSearch",
+      "Bash(chmod:*)",
+      "Bash(export GEMINI_API_KEY=\"AIzaSyCBV-TXvttZ-Uz2PjgqLYQDmtWXv7n7F9I\")",
+      "Bash(export LOCAL_AI_ENDPOINT=\"http://192.168.51.61:11434/v1/chat/completions\")",
+      "Bash(echo:*)",
+      "Bash(export LOCAL_AI_ENDPOINT=\"http://192.168.51.60:11434/v1/chat/completions\")",
+      "Bash(./scripts/start.sh:*)",
+      "Bash(__NEW_LINE__ echo '=== Project Root (Active Files) ===')",
+      "Bash(tree:*)",
+      "Bash(__NEW_LINE__ echo '=== CLEANUP SUMMARY ===')",
+      "Bash(__NEW_LINE__ echo '=== Hailo NPU Removal Summary ===')",
+      "Bash(pgrep:*)",
+      "Bash(kill:*)",
+      "Bash(source venv/bin/activate)",
+      "Bash(sqlite3:*)",
+      "Bash(find:*)",
+      "Bash(node --check:*)",
+      "WebFetch(domain:scryfall.com)",
+      "WebFetch(domain:api.scryfall.com)",
+      "Bash(tar:*)",
+      "Bash(netstat:*)",
+      "Bash(ss:*)",
+      "Bash(lsof:*)",
+      "Bash(fuser:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
